@@ -1,0 +1,130 @@
+/* html{
+    background-color: #F39494;
+} */
+/* form */
+
+/* form{
+    background-color: #F39494;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #333333;
+}
+p{ 
+    color: #666666; 
+     font-weight: bold;
+     font-size: 18px;
+}
+a{
+    color:#089FE0;
+    font-weight: bold;
+    font-size: 18px;  
+}
+span{
+    color:#089FE0;
+    font-weight: bold;
+    font-size: 18px;
+} */
+
+/* input{
+    background-color: #2E2D3D;
+     color: #fafafa;
+}
+label{
+    color: #666666;
+
+}
+select{
+    background-color: #2E2D3D;
+     color: #fafafa;
+}
+textarea{
+    background-color: #2E2D3D;
+    color: #fafafa;
+}
+button{
+    background-color:#089FE0;
+     color: #FFFFFF;    
+} */
+
+/* blog */
+
+.body{
+background: linear-gradient(180deg, #374151 0%, #111827 100%);;
+}
+.header{
+    margin-bottom: 80px;
+}
+header ul {
+    list-style: none;
+}
+.link a{
+    color: #FFFEFE;
+    text-decoration: none;
+    padding-left: 77px;
+    
+}
+.link span {
+    background-color: rgba(75, 85, 99, 0.6);
+    color: #FFFEFE;
+    background-color: #4B5563;
+    padding: 6px 12px;
+    margin-right: 11px;
+}
+input{
+    padding: 5px;
+    height: 40px;
+    border-radius: 100px;
+}
+input:focus{
+    border-color:  #374151;
+}
+.user{
+    margin-bottom: 14px;
+}
+.user span, .user datetime{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.title{
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 30px;
+}
+.gerlImg{
+    margin-bottom: 28px;
+}
+.name{
+    color: #FFFEFE;
+}
+.razrab{
+    color:  rgba(75, 85, 99, 0.6);
+}
+.blogImg{
+    margin-bottom: 69px;
+}
+article .text{
+    font-size: 20px;
+}
+article.text{
+    margin-bottom: 20px;
+}
+article p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFEFE;
+}
+article:last-child{
+    margin-bottom: 103px;
+}
+.foot{
+    color:  rgba(75, 85, 99, 0.6);
+}
+.foot p{
+    width: 226px;
+    margin: 0 auto;
+    padding-bottom: 77px;
+}
