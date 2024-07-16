@@ -7,81 +7,75 @@
     <title>blog</title>
   </head>
   <body>
-    <header class="header">
-      <nav>
-        <ul>
-          <li class="link">
-            <a href="#"><span>В </span>Мой блог</a>
-          </li>
-          <li href="#" class="link"><a>HTML и CSS</a></li>
-          <li href="#" class="link"><a>Frontend</a></li>
-          <li href="#" class="link"><a>Backend</a></li>
-        </ul>
-      </nav>
-      <form action="#" id="form">
-        <label for="search"></label>
-        <input type="search" name="search" id="search" placeholder="Поиск" />
-      </form>
+    <header>
+      <div class="wrapper">
+        <nav>
+          <ul class="list">
+            <li class="list__item"><span>B</span><a href="#">Мой блог</a></li>
+            <li class="list__item"><a href="#">HTML и CSS</a></li>
+            <li class="list__item"><a href="#">Frontend</a></li>
+            <li class="list__item"><a href="#">Backend</a></li>
+          </ul>
+          <form action="" class="from">
+            <img src="../1-blog/images/search.svg" alt="поиск" />
+            <input type="text" placeholder="Поиск" />
+          </form>
+        </nav>
+      </div>
     </header>
     <main>
-      <section class="user-section">
-        <p class="user">
-          <span>FRONTEND</span>
-          <datetime>12 мая 2024</datetime>
-        </p>
+      <div class="wrapper">
+        <div class="front">
+          <span class="front__ispol">FRONTEND</span>
+          <span class="front__data">12 мая 2024</span>
+        </div>
         <h1 class="title">
-          Теория цвета - Как цвет влияет на поведение <br />потребителей
+          Теория цвета - Как цвет влияет на поведение<br />
+          потребителей
         </h1>
-        <div class="gerlImg">
-          <div>
-            <img
-              src="images/Ellipse 1.png"
-              alt="красивая девушка - разработчик смотрит на тебя"
-            />
+        <div class="author">
+          <div class="author__img">
+            <img src="../1-blog/images/Ellipse 1.png" alt="фото разработчика" />
           </div>
-          <div>
-            <p class="name">Наталья Васильева</p>
-            <p class="razrab">Разработчик</p>
+          <div class="author2">
+            <div class="author__name">Наталья Васильева</div>
+            <div class="author__dolz">Разработчик</div>
           </div>
         </div>
-      </section>
-      <section class="img-section">
-        <img
-          class="blogImg"
-          src="images/Rectangle 181.png"
-          alt="картинка blog"
-        />
-        <article>
-          <p class="text">
-            Теория цвета — это особенности эмоционального восприятия человеком
-            тех или иных цветовых решений. Цвета и различные их комбинации
-            влияют на психику человека, а значит, во многом определяют его
-            поведение. Маркетологи и веб-дизайнеры хорошо знают, что правильно
-            подобранная цветовая гамма сайта помогает привлечь и удержать
-            внимание пользователей, сформироваыть положительное отношение к
-            продукту, подтолкнуть посетителей к совершению целевых действий,
-            повысить конверсию.
-          </p>
-          <p>
-            Универсального ответа на вопрос, как тот или иной цвет влияет на
+        <div class="main__img">
+          <img
+            class="main__img"
+            src="../1-blog/images/Rectangle 181.png"
+            alt="процесс создания"
+          />
+        </div>
+        <article class="article">
+          Теория цвета — это особенности эмоционального восприятия человеком тех
+          или иных цветовых решений. Цвета и различные их комбинации влияют на
+          психику человека, а значит, во многом определяют его поведение.
+          Маркетологи и веб-дизайнеры хорошо знают, что правильно подобранная
+          цветовая гамма сайта помогает привлечь и удержать внимание
+          пользователей, сформировать положительное отношение к продукту,
+          подтолкнуть посетителей к совершению целевых действий, повысить
+          конверсию.
+
+          <span class="article__Subtext"
+            >Универсального ответа на вопрос, как тот или иной цвет влияет на
             разных людей, нет. Эмоциональная и поведенческая реакция каждого
             человека зависит от личного опыта. Вместе с тем можно выделить
             определенные закономерности влияния цветов на поведение
-            пользователей.
-          </p>
-          <p>
-            В исследовании «Влияние цвета на маркетинг» (Impact of color on
-            marketing) говорится, что использование разных цветов может
-            существенно влиять на настроение и поведение потребителей.
+            пользователей. В исследовании «Влияние цвета на маркетинг» (Impact
+            of color on marketing) говорится, что использование разных цветов
+            может существенно влиять на настроение и поведение потребителей.
             Утверждается, что от 60 до 90% покупателей (в зависимости от
             категории продукта) дают положительную или отрицательную оценку
-            товару, основываясь только на его цвете.
-          </p>
+            товару, основываясь только на его цвете.</span
+          >
         </article>
-      </section>
+      </div>
     </main>
-    <footer class="foot">
-      <p>Все права защищены &copy;<datetime> 2024</datetime></p>
+    <footer class="footer">
+      <p class="footer__text">Все права защищены (c) 2024</p>
     </footer>
   </body>
 </html>
