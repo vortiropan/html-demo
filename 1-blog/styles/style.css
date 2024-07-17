@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --bg: linear-gradient(180deg, #374151 0%, #111827 100%);
+    --white: #fff;
+    --spanBg: rgba(75, 85, 99, 0.6);
+    --input: #1F2937;
+}
+html{
+    background:linear-gradient(180deg, #374151 0%, #111827 100%);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 0;
+    color: var(--white);
+    background:linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+header{
+    padding-top: 72px;
+    margin-bottom: 80px;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.wrap-block{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+     /* gap: 77px; */
+    
+}
+
+.wrap-block span{
+    padding: 6px 12px;
+    background-color: var(--spanBg);
+    margin-right: 77px;
+    margin-left: 192px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* justify-content: space-around; */
+    gap: 39px;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+.list__item_marginRight52{
+    margin-right: calc(77px - 39px);
+}
+/* .list__item_marginRight52{
+    margin-right: calc(77px - 55px);
+} */
+.list__item a{
+    font-size: 16px;
+}
+.from{
+    position: relative;
+    margin-left: auto;
+}
+.from img{
+    position: absolute;
+    left: 14px;
+    top: 14px;
+}
+.from input{
+    background-color: var(--input);
+    border: none;
+    padding: 10px 0 10px 50px;
+    font-size: 16px;
+    border-radius: 100px;
+}
+.front{
+    color: hsla(0, 0%, 100%, 1);
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: var(--spanBg);
+}
+
+.title{
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+.author__dolz{
+    font-size: 14px;
+    color: var(--spanBg);
+}
+.author{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.main__img{
+    text-align: center;
+    margin-bottom: 69px;
+}
+.content__text{
+    max-width: 708px;
+   margin: 0 auto 60px  ;
+   font-size: 20px;
+   line-height: 32px;
+}
+.content__text p:first-child {
+    font-size: 20px;
+    line-height: 32px;
+}
+.content__text p {
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer__text{
+    text-align: center;
+    color: var(--spanBg);
+}
