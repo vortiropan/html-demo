@@ -3,24 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/style.css" />
     <title>blog</title>
   </head>
   <body>
     <header>
       <div class="wrapper">
-        <nav>
-          <ul class="list">
-            <li class="list__item"><span>B</span><a href="#">Мой блог</a></li>
-            <li class="list__item"><a href="#">HTML и CSS</a></li>
-            <li class="list__item"><a href="#">Frontend</a></li>
-            <li class="list__item"><a href="#">Backend</a></li>
-          </ul>
+        <div class="wrap-block">
+          <span>B</span>
+          <nav>
+            <ul class="list">
+              <li class="list__item list__item_marginRight52">
+                <a href="#">Мой блог</a>
+              </li>
+              <li class="list__item">
+                <a href="#">HTML и CSS</a>
+              </li>
+              <li class="list__item"><a href="#">Frontend</a></li>
+              <li class="list__item"><a href="#">Backend</a></li>
+            </ul>
+          </nav>
           <form action="" class="from">
             <img src="../1-blog/images/search.svg" alt="поиск" />
-            <input type="text" placeholder="Поиск" />
+            <label for="text"></label>
+            <input id="text" type="text" placeholder="Поиск" />
           </form>
-        </nav>
+        </div>
       </div>
     </header>
     <main>
@@ -38,39 +52,43 @@
             <img src="../1-blog/images/Ellipse 1.png" alt="фото разработчика" />
           </div>
           <div class="author2">
-            <div class="author__name">Наталья Васильева</div>
-            <div class="author__dolz">Разработчик</div>
+            <p class="author__name">Наталья Васильева</p>
+            <p class="author__dolz">Разработчик</p>
           </div>
         </div>
         <div class="main__img">
           <img
-            class="main__img"
             src="../1-blog/images/Rectangle 181.png"
             alt="процесс создания"
           />
         </div>
-        <article class="article">
-          Теория цвета — это особенности эмоционального восприятия человеком тех
-          или иных цветовых решений. Цвета и различные их комбинации влияют на
-          психику человека, а значит, во многом определяют его поведение.
-          Маркетологи и веб-дизайнеры хорошо знают, что правильно подобранная
-          цветовая гамма сайта помогает привлечь и удержать внимание
-          пользователей, сформировать положительное отношение к продукту,
-          подтолкнуть посетителей к совершению целевых действий, повысить
-          конверсию.
+        <article class="content__text">
+          <p>
+            Теория цвета — это особенности эмоционального восприятия человеком
+            тех или иных цветовых решений. Цвета и различные их комбинации
+            влияют на психику человека, а значит, во многом определяют его
+            поведение. Маркетологи и веб-дизайнеры хорошо знают, что правильно
+            подобранная цветовая гамма сайта помогает привлечь и удержать
+            внимание пользователей, сформировать положительное отношение к
+            продукту, подтолкнуть посетителей к совершению целевых действий,
+            повысить конверсию.
+          </p>
 
-          <span class="article__Subtext"
+          <p>
             >Универсального ответа на вопрос, как тот или иной цвет влияет на
             разных людей, нет. Эмоциональная и поведенческая реакция каждого
             человека зависит от личного опыта. Вместе с тем можно выделить
             определенные закономерности влияния цветов на поведение
-            пользователей. В исследовании «Влияние цвета на маркетинг» (Impact
-            of color on marketing) говорится, что использование разных цветов
-            может существенно влиять на настроение и поведение потребителей.
+            пользователей.
+          </p>
+          <p>
+            В исследовании «Влияние цвета на маркетинг» (Impact of color on
+            marketing) говорится, что использование разных цветов может
+            существенно влиять на настроение и поведение потребителей.
             Утверждается, что от 60 до 90% покупателей (в зависимости от
             категории продукта) дают положительную или отрицательную оценку
-            товару, основываясь только на его цвете.</span
-          >
+            товару, основываясь только на его цвете.
+          </p>
         </article>
       </div>
     </main>
